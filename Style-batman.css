@@ -1,0 +1,116 @@
+body{
+background-color: black;
+background-image: url('Assets/Illustrations/Bathome1.png');
+background-size: 100%;
+margin-top: 10;
+background-repeat: no-repeat;
+background-attachment: scroll;
+font-family: 'SpaceGrotesk-Regular';
+color: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+header {
+    padding: 70px 102px 102px 102px;
+    border: 3px solid rgba(188, 187, 189, 0.2);
+    height: 132px;
+    padding: 20px;
+    padding-bottom: 200px;
+    border-bottom: none;
+    margin-left: 10%;
+    margin-right: 85px;
+
+}
+
+ h1{
+    font-family: 'Rajdhani-Medium';
+    font-size: 36px;
+}
+
+main {
+    border: 3px solid rgba(188, 187, 189, 0.2);
+    padding: 20px;
+    padding-bottom: 200px;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 10%;
+    margin-right: 85px;
+    text-align: justify;
+}
+/*Header style*/
+header{
+    position: relative;
+}
+.logo-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Home-header{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*Home-Batman*/
+.Accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.arrow-home{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.arrow-home img{   
+    width: 50px;
+    height: auto;
+}
+
+/*Alignement des images*/
+
+.image-deuxième-section{   
+    display: flex;
+    width: 33,33%;
+    object-fit: contain;
+    justify-content: center;
+}
+.image-deuxième-section img{   
+    margin-right: 60px;
+}
+
+.image-némésis{   
+    display: flex;
+    width: 33,33%;
+    object-fit: contain;
+    justify-content: center;
+}
+.image-némésis img{   
+    margin-right: 60px;
+}
+
+.image-alliés{   
+    display: flex;
+    width: 33,33%;
+    object-fit: contain;
+    justify-content: center;
+}
+.image-alliés img{   
+    margin-right: 60px;
+}
+
+
+
+/*footer*/
+footer{
+    margin-top: 170px;
+}
